@@ -27,7 +27,7 @@ public class EncryptionDecryption
             fis.close();
             JOptionPane.showMessageDialog(null, "Done");
         } 
-       catch (Exception e)
+        catch (Exception e)
         {
            e.printStackTrace();
         }
@@ -61,8 +61,6 @@ public class EncryptionDecryption
             operate(temp);
             
             button.setText("Decrypt");
-            
-
         });
 
         jf.setLayout(new FlowLayout());
